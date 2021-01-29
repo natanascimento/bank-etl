@@ -34,3 +34,15 @@ INSERT INTO teste.dim_categoria_cartao (id_categoria_cartao, categoria_cartao) v
 INSERT INTO teste.dim_categoria_cartao (id_categoria_cartao, categoria_cartao) values (61, 'Gold');
 INSERT INTO teste.dim_categoria_cartao (id_categoria_cartao, categoria_cartao) values (62, 'Platinum');
 INSERT INTO teste.dim_categoria_cartao (id_categoria_cartao, categoria_cartao) values (63, 'Silver');
+
+create table teste.fact_clients(
+	id_status_cliente integer not null,
+	id_cliente integer not null,
+	id_categoria_cartao integer not null,
+	customer_age integer not null,
+	dependent_count integer not null,
+	id_educacao integer not null,
+	id_genero integer not null,
+	id_income_category integer not null,
+	id_status_matrimonio integer not null
+);
