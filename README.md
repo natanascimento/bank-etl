@@ -1,2 +1,2 @@
-# bank-etl
-Data Pipeline for processing data of Bank
+# etl-covid
+Processing data about COVID-19
